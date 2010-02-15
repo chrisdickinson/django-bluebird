@@ -88,7 +88,7 @@ not supporting overriding `__div__`.
 INSTALLATION
 ============
 project/settings.py
-------------------- 
+===================
 * add 'bluebird' to INSTALLED_APPS
 * add 'django.contrib.sites' to INSTALLED_APPS
 * add 'south' to INSTALLED_APPS
@@ -96,10 +96,10 @@ project/settings.py
 * if this site will be used as an auth_portal, set IS_BLUEBIRD_AUTH_PORTAL = 1
 * add `bluebird.backends.TwitterAuthBackend` to your AUTHENTICATION_BACKENDS
 project/urls.py
----------------
+===============
 * add `('^bluebird/', include('bluebird.urls'))` to your urlpatterns
 finally
--------
+=======
 * `./manage.py syncdb && ./manage.py migrate`
 
 REQUIREMENTS
