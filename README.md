@@ -24,7 +24,7 @@ setup.
 
 How does it work
 ----------------
-The (TwitterConsumer)[http://github.com/chrisdickinson/django-bluebird/bluebird/models.py]
+The [TwitterConsumer](http://github.com/chrisdickinson/django-bluebird/blob/master/bluebird/models.py)
 object itself can be associated with many Sites -- these sites are end users of the 
 Consumer; and registered with a single Site that serves as an `auth_portal`. To
 configure a site as an auth_portal, its core settings.py should include a 
