@@ -1,0 +1,4 @@
+Django
+south
+-e git://github.com/simplegeo/python-oauth2.git#egg=oauth2
+-e git://github.com/chrisdickinson/waiter.git#egg=waiter
