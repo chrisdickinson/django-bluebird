@@ -1,7 +1,7 @@
 
 from south.db import db
 from django.db import models
-from apps.bluebird.models import *
+from bluebird.models import *
 
 class Migration:
     
