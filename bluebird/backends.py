@@ -51,3 +51,6 @@ class TwitterAuthBackend(object):
         except TwitterProfile.DoesNotExist:
             profile = TwitterProfile(twitter_identification=twitter_id, raw_data=simplejson.dumps(credentials))
         profile.save()
+
+    def get_user(self, pk):
+        return User.objects.get(pk=pk)
